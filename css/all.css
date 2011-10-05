@@ -1,0 +1,102 @@
+body {
+  font-family:sans-serif;
+  color:#777777;
+}
+p {
+  line-height:1.5em;
+  margin:1em 0;
+}
+ol, ul {
+  line-height:1.5em;
+  margin-left:4em;
+}
+ul {
+  list-style-type:lower-alpha;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family:Georgia,serif;
+  color:steelblue;
+}
+h1, h2, h3 {
+  font-weight:normal;
+}
+h4, h5, h6 {
+  font-weight:normal;
+}
+h1 {
+  font-size:2em;
+  margin:0.8em 0;
+}
+h2 {
+  font-size:1.8em;
+  margin:1em 0;
+}
+h3 {
+  font-size:1.6em;
+  margin:1.2em 0;
+}
+h4 {
+  font-size:1.4em;
+  margin:1.2em 0;
+}
+h5 {
+  font-size:1.2em;
+  margin:1.2em 0;
+}
+h6 {
+  font-size:1em;
+  margin:1.2em 0;
+}
+code {
+  white-space:pre;
+  display:block;
+  margin:1em 0;
+  padding:1em;
+  background-color:#eee;
+  font-family:monospace;
+  font-size:1.2em;
+  line-height:1.6em;
+}
+.container {
+  width:760px;
+  margin:0 auto;
+}
+.field-demo {
+  clear:both;
+  overflow:hidden;
+  font-size:0.8em;
+}
+.field-demo .content {
+  float:left;
+  width:49%;
+}
+.field-demo .content .field {
+  padding:1em;
+  background-color:lemonchiffon;
+}
+.field-demo .content .field label {
+  font-weight:bold;
+  margin-right:1em;
+}
+.field-demo .console {
+  float:right;
+  width:49%;
+}
+.field-demo .console label {
+  display:block;
+  font-weight:bold;
+  font-size:0.85em;
+}
+.field-demo .console .console-box {
+  border:1px solid lightsteelblue;
+  padding:0.6em;
+  margin:0.4em 0;
+}
+.field-demo .console textarea {
+  height:12em;
+  width:100%;
+  line-height:1.6em;
+  font-size:1.1em;
+  color:#555555;
+  border:none;
+}
