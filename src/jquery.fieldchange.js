@@ -73,8 +73,8 @@
       var elementData = $(element).data(eventName);
 
       if (element.fieldState() != cycleProperties.lastState) {
-        cycleProperties.handler.apply(element);
         cycleProperties.lastState = element.fieldState();
+        cycleProperties.handler.apply(element);
       }
     }
   };
