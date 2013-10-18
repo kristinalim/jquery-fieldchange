@@ -13,7 +13,8 @@
     var tagType = $(this).attr('type');
 
     if ((tagName == 'input' && jQuery.inArray(tagType, ['text', 'hidden']) != -1) ||
-      (tagName == 'textarea')) {
+      (tagName == 'textarea') ||
+      (tagName == 'select')) {
       return $(this).val();
     } else {
       return $(this).text();
